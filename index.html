@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <!-- Latest compiled and minified CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js">
+
+            function validate() {
+                var FullName = document.getElementById("fname");
+                var EmailAddress = document.getElementById("femail");
+                var Subject = document.getElementById("fsubject");
+                var Message = document.getElementById("fmessage");
+
+                if (FullName.Value.trim == " " || EmailAddress.Value.trim == " " || Subject.value.trim == " " || Message.value.trim == " ") {
+                    alert("no blank values allowed");
+                    return false;
+                }
+                else {
+                    true;
+
+                }
+
+            }
+
+        </script>
+
+
+        <style>
+            .div1bg {
+
+                background-image: url(./img/istockphoto-1016484912-612x612.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                position: relative;
+
+            }
+
+            .heading {
+                text-align: center;
+                color: black;
+                padding-top: 35vh;
+            }
+
+            .hello {
+                padding-bottom: 1vh;
+            }
+
+
+            .about {
+                padding-top: 12vw;
+                padding-left: 3vw;
+                width: 32vw;
+                margin-left: 8vw;
+            }
+
+            .div2 {
+                padding-left: 24vw;
+                text-align: center;
+                padding-bottom: 30vw;
+            }
+
+            .div3bg {
+                background-image: url(./img/istockphoto-898659838-612x612.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                padding-top: 1vw;
+            }
+
+            body {
+                color: black;
+                margin-top: 20px;
+            }
+
+            .section {
+                padding: 100px 0;
+                position: relative;
+            }
+
+
+
+
+            .contact-name {
+                margin-bottom: 30px;
+            }
+
+            .contact-name h5 {
+                font-size: 22px;
+                color: black;
+                margin-bottom: 5px;
+                font-weight: 600;
+            }
+
+            .contact-name p {
+                font-size: 18px;
+                margin: 0;
+            }
+
+
+
+
+            .contact-form .form-control {
+                border: none;
+                border-bottom: 1px solid black;
+                background: transparent;
+                border-radius: 0;
+                padding-left: 0;
+                box-shadow: none !important;
+            }
+
+
+
+            .contact-form .send {
+                margin-top: 20px;
+            }
+
+
+
+
+
+            .section-title {
+                padding-bottom: 45px;
+            }
+
+            .contact-form .send {
+                margin-top: 20px;
+            }
+
+            .px-btn {
+                padding: 0 50px 0 20px;
+                line-height: 60px;
+                position: relative;
+                display: inline-block;
+                color: black;
+                background: none;
+                border: none;
+            }
+        </style>
+
+    </head>
+
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+
+
+
+        <!-- home -->
+        <div>
+            <div id="div1" style="height:100vh ;color: black; " class="div1bg heading">
+
+                <nav id="nav-example" class="nav justify-content-center fixed-top">
+                    <a class="nav-link text-dark" href="#div1">Home</a>
+                    <a class="nav-link text-dark" href="#div2">About me</a>
+                    <a class="nav-link text-dark" href="#div3">Gallery</a>
+                    <a class="nav-link text-dark" href="#div4">Contact</a>
+
+
+                </nav>
+
+
+                <p style="font-size: 4vh;" class="hello"> Hello, I'm </p>
+                <b>
+                    <p style="font-size: 6vw;">Vrinda Shirsat</p>
+                </b>
+                <p style="font-size: 2vw;"> A Communication Design Student</p>
+
+            </div>
+
+
+
+            <!-- about me -->
+            <div id="div2" style="height:100vh;  background-color: lightgrey ;" class="row">
+
+                <div class="col-md">
+                    <img src="./img/me.png" alt="error" srcset="" class="about">
+
+                </div>
+
+                <div class="col-md">
+
+                    <h1 style="text-align: center; padding-top: 15vw; padding-right: 7vw;">About Me
+                    </h1>
+
+                    <p style="float: right; text-align: center; padding-right: 8vw; padding-top: 1vw; font-size: 3vh;">
+                        I am Vrinda Shirsat, an aspiring Graphic
+                        Designer, <br>
+                        and a Communication Design student at Atlas Skilltech <br>
+                        University's Indian School of Design and Innovation (ISDI). <br>
+                        Being a morning person, I hope that with the beginning of <br>
+                        each new day, I get to help more and more people with the <br>
+                        creative skills that I inherit. While doing this, I also look <br>
+                        forward to learning new things from every individual in my life.</p>
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+
+
+
+
+
+
+        <!-- Gallery -->
+
+        <div id="div3" class="div3bg heading" style="height:100vh; background-color: #FFFB64;">
+            <p style="padding-bottom: 8vw;"></p>
+
+            <b style="text-align: center; font-size:4vw;">Everything you can <br> imagine is real.</b>
+            <p style="text-align: center ; font-size: 1.5vw;">-Pablo Picasso</p>
+
+
+            <p style=" font-size: 3vw;padding-top: 3vw;">My Latest Work</p>
+            <p style="text-align: center ;">
+                See a few glimpses of creative work <br>
+                I’ve created but not an indication of all that I can do. <br>
+
+            </p>
+
+            <a href="./code/gallery.html" class="btn" role="button" style="background-color: black; color:#FFFB64;">My
+                work</a>
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+        <!-- contact -->
+        <div id="div4" class="" style="height:100vh; background-color: lightgrey; padding-top: 1vw;">
+
+
+            <section class="section gray-bg ">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title">
+                            <h2 style="text-align: center;">Get In Touch</h2>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row flex-row-reverse">
+                    <div class="col-md-7 col-lg-8 m-15px-tb">
+                        <div class="contact-form" style="padding-right: 6vw;">
+                            <form name="myForm" action="../Vrinda Shirsat-portfolio website/code/FormValidation.html"
+                                onsubmit="return validate()">
+
+
+
+
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div>
+                                            <input id="name" type="text" placeholder="FullName" name="fname"> <br><br>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div>
+                                            <input id="email" type="text" placeholder="EmailAddress" name="femail">
+                                            <br><br>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div>
+                                            <input id="subject" type="text" placeholder="Subject" name="fsubject">
+                                            <br><br>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div>
+                                            <input textarea id="message" placeholder="Message" rows="5" name="fmessage">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="send">
+                                            <button type="submit">Send Message</BUTton>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                </form>
+        </div>
+        </div>
+        <div class="col-md-5 col-lg-4 m-15px-tb " style="padding-left: 6vw;">
+            <div class="contact-name">
+                <h5>Email id</h5>
+                <p>vrindashirsat@gmail.com</p>
+            </div>
+            <div class="contact-name">
+                <h5>Location</h5>
+                <p>Brahmand, Thane(west) <br>Pin code - 400607</p>
+            </div>
+            <div class="contact-name">
+                <h5>Phone</h5>
+                <p>+91 9324156264</p>
+            </div>
+
+
+        </div>
+        </section>
+
+
+
+
+
+
+
+    </body>
+
+</html>
